@@ -3,6 +3,8 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 
+let fakeTrashVariable = 'timmyaabouttimmy'
+
 function calculateWinner(squares){
   const lines = [
       [0, 1, 2],
